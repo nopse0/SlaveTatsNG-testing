@@ -20,9 +20,9 @@ include(XSEPlugin)
 # #######################################################################################################################
 # # Find dependencies
 # #######################################################################################################################
-find_package(magic_enum CONFIG REQUIRED)
-find_package(xbyak CONFIG REQUIRED)
-find_package(nlohmann_json CONFIG REQUIRED)
+#find_package(magic_enum CONFIG REQUIRED)
+#find_package(xbyak CONFIG REQUIRED)
+#find_package(nlohmann_json CONFIG REQUIRED)
 #find_path(CLIB_UTIL_INCLUDE_DIRS "ClibUtil/utils.hpp")
 
 #target_include_directories(
@@ -31,10 +31,10 @@ find_package(nlohmann_json CONFIG REQUIRED)
 #	#${CLIB_UTIL_INCLUDE_DIRS}
 #)
 
-target_link_libraries(
-	${PROJECT_NAME}
-	PRIVATE
-	magic_enum::magic_enum
-	xbyak::xbyak
-	nlohmann_json::nlohmann_json
-)
+#target_link_libraries(
+#	${PROJECT_NAME}
+#	PRIVATE
+#	magic_enum::magic_enum
+#	xbyak::xbyak
+#	nlohmann_json::nlohmann_json
+#)
