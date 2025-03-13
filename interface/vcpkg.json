@@ -1,0 +1,18 @@
+{
+  "name": "slave-tats-ng-interfacetest",
+  "version-string": "0.0.1",
+  "description": "SlaveTatsNG Interface Test",
+  "homepage": "",
+  "license": "MIT",
+  "dependencies": [
+    "fmt",
+    "directxtk",
+    "rapidcsv",
+    "spdlog",
+    "xbyak",
+    "catch2",
+    "magic-enum",
+    "nlohmann-json"
+  ],
+  "builtin-baseline": "83972272512ce4ede5fc3b2ba98f6468b179f192"
+}
